@@ -1,0 +1,31 @@
+{
+  "name": "pop_collection_api",
+  "version": "1.0.0",
+  "description": "pop_collection_api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//DarkenNights/pop_collection_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "i18next": "^20.2.1",
+    "i18next-fs-backend": "^1.1.1",
+    "i18next-http-middleware": "^3.1.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "nodemon": "^2.0.7"
+  }
+}
